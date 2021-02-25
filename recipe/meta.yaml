@@ -19,10 +19,12 @@ requirements:
   host:
     - pip
     - flit
+    - bluesky
     - happi
     - yaqc >=2020.10.0
     - python >=3.8
   run:
+    - bluesky
     - happi
     - yaqc >=2020.10.0
     - python >=3.8
