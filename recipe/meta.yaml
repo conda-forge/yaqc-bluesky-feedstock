@@ -1,5 +1,5 @@
 {% set name = "yaqc-bluesky" %}
-{% set version = "2020.7.1" %}
+{% set version = "2021.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 443c9cab3d4b7675e2e8aa4105e81241e8846ad34cfa329703c3f4c4e61d2a9f
+  sha256: 49030d626118a100a7bdc7995780b9711c0562320344ab89e1f9b617b162fdff
 
 build:
   number: 0
@@ -19,11 +19,17 @@ requirements:
   host:
     - pip
     - flit
-    - yaqc >=2020.7.3
+    - bluesky
+    - happi
+    - yaqc >=2020.10.0
     - python >=3.8
   run:
-    - yaqc >=2020.7.3
+    - bluesky
+    - happi
+    - yaqc >=2020.10.0
     - python >=3.8
+  run_constrained:
+    - databroker >=1.2.2
 
 test:
   imports:
