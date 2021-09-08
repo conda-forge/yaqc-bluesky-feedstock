@@ -34,8 +34,8 @@ requirements:
 test:
   imports:
     - yaqc_bluesky
-  commands:
-    - pip check
+  #commands:
+  #  - pip check
   requires:
     - pip
 
