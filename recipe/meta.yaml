@@ -1,5 +1,5 @@
 {% set name = "yaqc-bluesky" %}
-{% set version = "2021.9.0" %}
+{% set version = "2021.12.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4bba739fcb90c3d2b20cc9cf3589b347e0c0318170bc0ef29e325017e2e90bf3
+  sha256: c77ca2c4599c3d87cda632959a62218cef1dad98623da88a85250901e3d71bfe
 
 build:
   number: 0
