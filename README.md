@@ -1,11 +1,11 @@
-About yaqc-bluesky
-==================
+About yaqc-bluesky-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yaqc-bluesky-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/bluesky/yaqc-bluesky
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/yaqc-bluesky-feedstock/blob/main/LICENSE.txt)
 
 Summary: A bluesky interface to the yaq instrument control framework.
 
